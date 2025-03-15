@@ -2,14 +2,15 @@ package org.sofiya.demo.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode
+@Getter
+@Setter
+@ToString
 public class Person {
     @Id
     private String login;
