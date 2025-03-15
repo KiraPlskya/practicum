@@ -11,9 +11,7 @@ import lombok.*;
 @Getter
 @Setter
 @ToString
-public class Person {
+public class Department {
     @Id
-    private String login;
-
-    private String password;
+    private String name;
 }
